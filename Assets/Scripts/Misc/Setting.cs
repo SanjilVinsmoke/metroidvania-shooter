@@ -6,7 +6,7 @@ public static class Setting
 	 public static int isRunning;
 	 public static int isShooting;
 	 public static int speed;
-	 public static float runSpeed = 20f;
+	 public static float runSpeed = 30f;
 	 public static int isCrouching;
 	 public static int isJumping;	 
 	 static Setting()
