@@ -8,7 +8,9 @@ public static class Setting
 	 public static int speed;
 	 public static float runSpeed = 30f;
 	 public static int isCrouching;
-	 public static int isJumping;	 
+	 public static int isJumping;
+	 public static int move;
+	 public static int idle;
 	 static Setting()
 	 {
 		 isRunning = Animator.StringToHash("isRunning");
@@ -16,6 +18,10 @@ public static class Setting
 		 speed = Animator.StringToHash("speed");
 		 isCrouching = Animator.StringToHash("isCrouching");
 		 isJumping = Animator.StringToHash("isJumping");
+		 
+		 //Enemies
+		 move = Animator.StringToHash("move");
+		 idle=Animator.StringToHash("idle");
 	 }
  }
 
